@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'CrimsonText'; 
+  src: "CrimsonText-Regular.ttf"; 
+  font-weight: normal; /* Specifies the regular version */
+}
+
+@font-face {
+  font-family: 'CrimsonText';
+  src: "CrimsonText-Bold.ttf"; 
+  font-weight: bold; 
+}
+
+@font-face {
+  font-family: 'CrimsonText';
+  src: "CrimsonText-Italic.ttf";
+  font-style: italic; 
+}
+
+body {
+  font-family: 'CrimsonText'; /* Applies the custom font to the entire page */
+  margin: 0;
+  padding: 0;
+  background-image: url("logo-black-alpha.png"); /* Replace with the actual path to your image */
+  background-repeat: no-repeat;  /* Prevent the image from repeating */
+  background-size: auto;        /* Make the image cover the entire background */ 
+  background-attachment: fixed;  /* Prevent the image from scrolling with the page */
+  background-position: right top;
+}
+
+img {
+  max-height: 100%; /* Ensures the image never exceeds the width of its parent */
+  width: auto; /* Maintains the aspect ratio */
+  object-fit: cover; /* Ensures the image covers the entire element */
+}
+
+.author {
+  font-size: 1.25rem;
+}
+
+.bar {
+  background-color: rgb(71, 84, 104);
+  margin-left: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 1.25rem;
+}
+
+#header-img {
+  width: auto;
+  height: 55%;
+}
+
+#header-text {
+  font-size: 1.5rem;
+  margin-left: 1%;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  height: 45px;
+  margin-top: auto;
+}
+
+#footer-text {
+  margin-left: 1%;
+  color: white;
+  font-size: 1.25rem;
+}
+#header {
+  margin-top: 1%;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 10%;
+  margin-left: auto;
+}
+
+#left-content {
+  display: inline-block;
+  padding: 20px;
+  width: 40vw;
+  height: auto;
+  background-color: rgb(236, 240, 248);
+}
+
+#left-content-top {
+  font-size: 1.5rem;
+}
+
+#left-content-middle {
+  font-size: 3rem;
+}
+
+#left-content-bottom {
+  font-size: 1.5rem;
+}
+
+#line {
+  width: 95%;
+  height: 1px;
+  background-color: rgb(71, 84, 104);
+  margin-left: auto;
+  margin-top: 280px;
+}
+#main-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  height: 40%;
+  margin-left: auto;
+}
+
+#right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 45vw;
+  height: 40vh;
+  margin-top: 40px;
+}
+
+#top-bar {
+  width: 95%;
+  height: 15px;
+}
